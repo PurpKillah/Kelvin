@@ -5,6 +5,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: black;
+    font-size: 14px;
 }
 
 .container {
@@ -26,6 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 76px;
 }
 
 .logo {
@@ -54,7 +56,6 @@ body {
 .navList {
     display: flex;
     column-gap: 50px;
-    font-size: 14px;
     font-weight: 500;
     color: #000;
 }
@@ -69,4 +70,45 @@ body {
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
+}
+
+.headerContent {
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.headerContent h1 {
+    font-weight: 600;
+    font-size: 44px;
+
+}
+
+.headerContent p {
+    font-weight: 400;
+    line-height: 200%;
+    margin-top: 20px;
+}
+
+/* Services */
+
+.servicesRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+
+.serviceCard {
+    max-width: 370px;
+}
+
+.serviceCardHeading {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.serviceCard p {
+    line-height: 200%;
 }
