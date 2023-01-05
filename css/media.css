@@ -1,10 +1,17 @@
 @media (max-width: 1230px) {
+
+    /* nav */
+
     .navList {
         display: none;
     }
 
     .navBtn {
         display: block;
+        position: fixed;
+        z-index: 9;
+        right: 30px;
+        top: 46px;
     }
 
     .nav.open .navList {
@@ -29,5 +36,87 @@
 
     .navLink.active {
         color: #000;
+    }
+
+
+
+    /* header */
+
+    .headerRow {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .headerContent {
+        margin: 0;
+    }
+
+    .headerNav {
+        margin-bottom: 50px;
+    }
+
+    .headerImg {
+        text-align: center;
+    }
+
+    /* services */
+
+    .servicesRow {
+        flex-direction: column;
+        row-gap: 60px;
+        padding: 60px 0px;
+    }
+
+    /* portfolio */
+
+    .portfolioHeading {
+        padding-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .portfolioItem {
+        margin: 0 30px;
+    }
+
+    .portfolioItem a {
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .portfolio {
+        padding-bottom: 10px;
+    }
+
+    /* contacts */
+
+    .contacts {
+        padding: 60px 0px;
+    }
+
+    .contactsHeading {
+        margin-bottom: 20px;
+    }
+
+    .contactsContent {
+        margin-bottom: 20px;
+    }
+
+    .contactsBtn {
+        margin-bottom: 70px;
+    }
+
+    .contactsSocial {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .headerHeading {
+        font-size: 34px;
+    }
+
+    .headerHeading span {
+        font-size: 28px;
     }
 }

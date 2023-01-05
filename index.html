@@ -15,7 +15,7 @@
         <div class="container">
             <div class="headerNav">
                 <a href="#" class="logo">Kelvin</a>
-                <nav class="nav open">
+                <nav id="nav" class="nav">
                     <ul class="navList">
                         <li class="navItem"><a href="#" class="navLink active">Home</a></li>
                         <li class="navItem"><a href="#" class="navLink">Works</a></li>
@@ -24,18 +24,24 @@
                         <li class="navItem"><a href="#" class="navLink">Contact</a></li>
                     </ul>
                 </nav>
-                <button class="navBtn"><img src="img/icons/navOpen.svg" alt="Nav button"></button>
+                <button id="navBtn" class="navBtn">
+                    <img id="navBtnImg" src="img/icons/navOpen.svg" alt="Nav button">
+                </button>
             </div>
 
             <div class="headerRow">
                 <div class="headerContent">
-                    <h1>Kelvin Kramer Designer & Developer</h1>
+                    <h1 class="headerHeading">Kelvin Kramer <span>Designer & Developer</span></h1>
                     <p>I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen
                         year tenure here.
                     </p>
                 </div>
                 <div class="headerImg">
-                    <img src="img/header/hero.png" alt="">
+                    <picture>
+                        <source media="(max-width: 700px)" srcset="img/header/heroMobile.png">
+                        <img src="img/header/hero.png" alt="">
+                    </picture>
+
                 </div>
             </div>
         </div>
