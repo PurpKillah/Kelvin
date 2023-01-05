@@ -30,6 +30,15 @@ body {
     margin-bottom: 76px;
 }
 
+.navItem {
+    transition: 0.2s ease;
+}
+
+.navItem:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
 .logo {
     font-weight: 700;
     font-size: 32px;
@@ -111,4 +120,27 @@ body {
 
 .serviceCard p {
     line-height: 200%;
+}
+
+/* Portfolio */
+
+.portfolio {
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.portfolioItem a {
+    display: block;
+    text-decoration: underline;
+    font-size: 18px;
+    margin-top: 40px;
+    padding-bottom: 90px;
+}
+
+.portfolioHeading {
+    color: #070707;
+    padding-top: 90px;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 70px;
 }
