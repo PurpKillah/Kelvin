@@ -8,6 +8,9 @@
     <title>Kelvin</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -36,7 +39,7 @@
                         year tenure here.
                     </p>
                 </div>
-                <div class="headerImg">
+                <div class="headerImg" data-aos="fade-left">
                     <picture>
                         <source media="(max-width: 700px)" srcset="img/header/heroMobile.png">
                         <img src="img/header/hero.png" alt="">
@@ -77,15 +80,15 @@
 
     <section class="portfolio">
         <h3 class="portfolioHeading">Portfolio</h3>
-        <div class="portfolioItem">
+        <div class="portfolioItem" data-aos="flip-down">
             <img src="img/portfolio/portfolio 1.jpg" alt="first case">
             <a href="#">Online fashion store - Homepage</a>
         </div>
-        <div class="portfolioItem">
+        <div class="portfolioItem" data-aos="flip-down">
             <img src="img/portfolio/portfolio 2.jpg" alt="first case">
             <a href="#">Reebok Store - Concept</a>
         </div>
-        <div class="portfolioItem">
+        <div class="portfolioItem" data-aos="flip-down">
             <img src="img/portfolio/portfolio 3.jpg" alt="first case">
             <a href="#">Braun Landing Page - Concept</a>
         </div>
@@ -102,7 +105,7 @@
             <div class="contactsBtn">
                 <a href="#!">Send message</a>
             </div>
-            <div class="contactsSocial">
+            <div class="contactsSocial" data-aos="zoom-out-up">
                 <a href="#!"><img class="socialIcon" src="img/socials/LinkedIn.svg" alt="LinkedIn"></a>
                 <a href="#!"><img class="socialIcon" src="img/socials/Instargam.svg" alt="Instargam"></a>
                 <a href="#!"><img class="socialIcon" src="img/socials/Behance.svg" alt="Behance"></a>
@@ -113,7 +116,9 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/main.js"></script>
 </body>
 

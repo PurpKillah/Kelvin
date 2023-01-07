@@ -9,3 +9,6 @@ navBtn.addEventListener('click', openMenu = () => {
         navBtnImg.src = ('img/icons/navOpen.svg');
     }
 });
+
+
+AOS.init();
